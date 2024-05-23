@@ -27,11 +27,51 @@ import FRParentInput from './components/FRParentInput';
 import PortalDemo from './components/PortalDemo';
 import Hero from './components/Hero';
 import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
+import ClickCounter2 from './components/ClickCounter2';
+import User from './components/User';
+import Hovercounter2 from './components/Hovercounter2';
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/userContext'
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ErrorBoundary>
+
+<Form />{/* <UserProvider value="Dimpal">
+  <ComponentC/>
+</UserProvider> */}
+
+{/* <CounterC /> */}
+
+
+             {/* <Counter 
+             render ={ (count , increamnetcount) => (
+             <ClickCounter2 count={count} increamnetcount={increamnetcount} />
+             )}
+             />
+        
+    
+
+             <Counter 
+             render ={(count , increamnetcount) => (
+             <Hovercounter2 count={count} increamnetcount={increamnetcount} />
+             )}
+             />
+             
+             
+             */}
+             {/* <ClickCounter2 />
+            <HoverCounter/>
+            {/* <User name = { () =>'Dimpal'}/> */}
+            {/* <User name = { (isLoggedIn) => isLoggedIn ? 'Dimpal':'Guest'}/> */} 
+            {/* pass tthe function  */}
+
+{/* 
+        <ClickCounter />
+        <HoverCounter /> */}
+        {/* <ErrorBoundary>
           <Hero heroname="batman" />
         </ErrorBoundary>
         <ErrorBoundary> 
@@ -39,7 +79,7 @@ class App extends Component {
           </ErrorBoundary>
         <ErrorBoundary> 
            <Hero heroname="joker" />
-        </ErrorBoundary>
+        </ErrorBoundary> */}
 
         {/* <PortalDemo />      <FRParentInput /> */}
         {/* <FocusInput /> */}

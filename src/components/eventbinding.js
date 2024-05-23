@@ -10,7 +10,7 @@ class EventBinding extends Component {
       }
      }
 
-    //  Binding in the constructore ...(best opion to use)
+    //  Binding in the constructore ...(best option to use)
      //this.ClickHandler=this.ClickHandler.bind(this)
     // ClickHandler(){
     //     this.setState({

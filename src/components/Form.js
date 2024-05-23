@@ -13,11 +13,14 @@ constructor(props) {
 handleusernamechange =(event) =>{
           this.setState({
             username: event.target.value
+            //event.target :get the element where event occure 
+            //event.target.value:Get the value of the element where the event occurred:
           })
 }
 handlecommentchange =(event) =>{
     this.setState({
         Comment:event.target.value
+        //
     })
 }
 handlertopicchange =(event) =>{
