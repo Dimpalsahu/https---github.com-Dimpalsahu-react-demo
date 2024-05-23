@@ -9,3 +9,4 @@ class NewComponent extends React.Component{
 }
 return NewComponent
 } 
+export default updatecomponent

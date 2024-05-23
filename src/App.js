@@ -39,9 +39,12 @@ class App extends Component {
     return (
       <div className="App">
 
-<Form />{/* <UserProvider value="Dimpal">
-  <ComponentC/>
-</UserProvider> */}
+ <ClickCounter />
+<HoverCounter />
+<Form />
+{/* <UserProvider value="Dimpal"> */}
+  {/* <ComponentC/>
+</UserProvider> */} 
 
 {/* <CounterC /> */}
 
